@@ -1,0 +1,163 @@
+@media screen and (min-width: 992px) {
+        .navbar {
+          padding: 0;
+        }
+      }
+      .navbar .navbar-nav .nav-link {
+        padding: 1em;
+        transition: all 0.5s;
+        color: #fff;
+        font-size: 1.1em;
+      }
+      @media screen and (max-width: 991px) {
+        .navbar-brand {
+          padding-left: 0.7em;
+        }
+        .navbar-nav {
+          padding-top: 0.5em;
+        }
+      }
+      .top-contant{
+        margin-top: 60px;
+      }
+      .top-contant h2{
+        color: violet;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        margin-top: 30px;
+      }
+      .top-contant h5{
+        color: gray;
+        word-spacing: 10px;
+        margin-top: 40px;
+      }
+      @media all and (max-width:768px){
+        .top-contant img{
+            margin-top: 50px;
+        }
+      }
+      /* ************ */
+      .main_contant{
+        margin-top: 165px;
+      }
+      .main_contant h5{
+        color: #1E01DC;
+      }
+      .main_contant p{
+        color: violet;
+      }
+      .divider {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  width: 32px;
+  height: 3px;
+  border-radius: 40px;
+  background-color: #6C55F9;
+}
+      .center-contant{
+        margin-top: 100px;
+      }
+      .center-contant p{
+        color: violet;
+      }
+      .marked{
+        color: #1E01DC;
+      }
+      .contant1{
+        margin-top: 100px;
+      }
+      .contant1 h2,p{
+        margin-top: 30px;
+      }
+      .contant1 p{
+        color: violet;
+      }
+      .contant2{
+        margin-top: 120px;
+      }
+      .contant2 h5{
+        color: #1E01DC;
+      }
+      .contant2 p{
+        color: violet;
+      }
+      .contant3{
+        margin-top: 100px;
+      }
+      .contant3 h2{
+        color: violet;
+      }
+      .contant3 p{
+        color: black;
+      }
+      li{
+        list-style-type: none;
+      }
+      .contact{
+        margin-top: 100px;
+      }
+      .form-con{
+      max-width: 400px;
+    }
+    .titlehead{
+            text-align: center;
+        }
+        .form-control {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: none;
+      border-bottom: 1px solid black;
+      outline: none;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+
+    /* **********************footer */
+    footer {
+      background-color: #1E01DC; 
+      color: white; 
+      padding: 30px 0; 
+      margin-top: 100px;
+    }
+    footer h2{
+      color: violet;
+    }
+    /* ********** */
+    .sec{
+      margin-top: 90px;
+    }
+    .box {
+          background-color: #ffffff;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          margin-top: 30px;
+          padding: 20px;
+        }
+      
+        @media all and (max-width: 767px) {
+          .sec1 {
+            width: 100%;
+          }
+        }
+
+    /* ****************** card hover */
+     .card {
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  box-shadow: 5px 5px 10px #e1e1e1;
+  padding: 3em 0;
+  border-bottom-right-radius: 4em;
+  border-top-left-radius: 4em;
+  /* background: grey; */
+  background: linear-gradient(to left, #1E01DC 50%, #26282b 50%);
+  background-size: 200%;
+  background-position: right;
+  transition: background-position 0.5s ease-out;
+}
+.card:hover {
+  background-position: left;
+}
